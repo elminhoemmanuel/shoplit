@@ -1,0 +1,64 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1em;
+    overflow-x: hidden;
+    color: #666666;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rubik','Roboto', sans-serif ;
+    color: #06273A;
+}
+
+.grey-section{
+    background-color: rgb(245, 243, 243);
+}
+
+.white-section{
+    background-color: #ffffff;
+}
+
+.holders{
+    padding: 3% 7%;
+}
+
+.center{
+    text-align: center;
+}
+
+.colored{
+    color: #f9484a;
+}
+
+/* contents */
+
+.intro-text{
+    margin-bottom: 5%;
+}
+
+.team-img{
+    margin-bottom: 4%;
+    border-radius: 80%;
+}
+
+.row{
+    margin-bottom: 5%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 1.8rem;
+    }
+
+    h3,h6{
+        font-size: 1.3rem;
+    }
+
+
+}
+
+
+

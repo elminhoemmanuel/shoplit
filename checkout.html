@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+            <title>Shoplit- shopping just got lit</title>
+            
+            <!-- favicon -->
+            <link rel="icon" href="images/favicon.ico">
+            <!-- bootstrap link -->
+            <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+          
+            <!-- css link -->
+            <link rel="stylesheet" href="css/checkout.css">
+          
+            <!-- Google fonts link -->
+            <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet"> 
+            <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">  
+            <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+          
+            <!-- font awesome link -->
+            <script src="https://kit.fontawesome.com/9cee552667.js" crossorigin="anonymous"></script>
+          
+            <!-- bootstrap scripts link -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+
+        <section id="checkout" class="grey-section">     
+                <div class="row grey-section checkout-div">
+                    <div class=" checkout-det white-section checkout-card">             <!--det stands for details-->
+                        <div class="checkout-title grey-section">
+                            <h6>Checkout</h6>
+                        </div>
+                        <div class="checkout-det-content">
+                            <div class="address-initial">
+                                <div class="checkout-heading address-heading">
+                                    <h6 class="checkout-header"><i class="fas fa-check-circle check-disabled"></i>1. ADDRESS DETAILS</Address></h6>
+                                </div>
+                                <p class="required-tag"> <span class="asterisk">*</span>Required</p>
+                                <form class="ad-form">
+                                    <div class="form-row">
+                                      <div class="form-group col-md-6">
+                                        <label for="inputfname">First Name<span class="asterisk">*</span></label>
+                                        <input type="text" class="form-control input-text" id="inputfname">
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                        <label for="inputlname">Last Name <span class="asterisk">*</span></label>
+                                        <input type="text" class="form-control input-text" id="inputlname">
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="inputphone">Phone <span class="asterisk">*</span></label>
+                                      <input type="text" class="form-control input-text" id="inputphone" placeholder="08024433267">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="inputAddress">Address <span class="asterisk">*</span></label>
+                                      <input type="text" class="form-control input-text" id="inputAddress" placeholder="1234 main str">
+                                    </div>
+                                    <div class="form-row">
+                                      <div class="form-group col-md-6">
+                                            <label for="inputState">State<span class="asterisk">*</span></label>
+                                            <select id="inputState" class="form-control input-text">
+                                                <option selected value="null">Please select....</option>
+                                                <option value="abia">Abia</option>
+                                                <option value="adamawa">Adamawa</option>
+                                                <option value="bauchi">Bauchi</option>
+                                                <option value="abuja">Abuja</option>
+                                                <option value="lagos">Lagos</option>
+                                                <option value="rivers">Rivers</option>
+                                            </select>
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                        <label for="inputcity">City<span class="asterisk">*</span></label>
+                                        <select id="inputcity" class="form-control input-text">
+                                            <option selected value="null">Please select....</option>
+                                            <option value="abia">Abia</option>
+                                            <option value="adamawa">Adamawa</option>
+                                            <option value="bauchi">Bauchi</option>
+                                            <option value="abuja">Abuja</option>
+                                            <option value="lagos">Lagos</option>
+                                            <option value="rivers">Rivers</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                </form>
+
+                                <button class="save-btn next-step-btn">SAVE AND CONTINUE</button>
+
+                            </div>
+                            <div class="address-after">
+                                <div class="checkout-heading address-heading">
+                                  <h6 class="checkout-header"><i class="fas fa-check-circle check-completed"></i>1. ADDRESS DETAILS<a href="#" class="edit-det"><i class="far fa-edit"></i></a></h6>
+                                </div>
+                                <div class="entered-det">
+                                  <p class="customer-name"><strong>Emmanuel Amodu</strong></p>
+                                  <p class="customer-address">1234 Main street</p>
+                                  <p class="customer-phone">08099993333</p>
+                                </div>
+                            </div>
+                            <div class="delivery-div grey-section">
+                                      <div class="delivery-initial white-section others-card">
+                                            <div class="checkout-heading">
+                                              <h6 class="checkout-header"><i class="fas fa-check-circle check-disabled"></i>2. DELIVERY METHOD</h6>
+                                            </div> 
+                                            <div class="delivery-initial-content">
+                                                  <p>How do you want your order delivered?</p>
+                                                  <div class="del-choice-div">
+                                                      <form>
+                                                        <input type="radio" id="door-del" name="delivery-method" value="door-del">
+                                                        <label for="door-del"><strong><i class="fas fa-truck pay-icon"></i><i class="fas fa-truck pay-icon-space"></i>Door Delivery</strong></label><br>
+                                                        <p class="door-del-info  small-text">Delivered between <span>Thursday 2 April</span> and <span>Friday 2 April</span>
+                                                          for <span class="door-price">₦500</span></p> 
+                                                        <div class="delivery-info small-text">
+                                                            <ul  class="info-list">
+                                                                <li>Large items e.g Freezers may take up to 2 extra business days</li>
+                                                                <li>Free delivery for Lagos and Abuja.</li>
+                                                            </ul>
+                                                        </div>
+                                                        <input type="radio" id="pickup-del" name="delivery-method" value="pickup-del">
+                                                        <label for="pickup-del"><i class="fas fa-store-alt pay-icon"></i><i class="fas fa-store-alt pay-icon-space"></i><strong>Pickup Delivery</strong></label><br>
+                                                        <p class="pickup-del-info small-text">Ready for pickup between <span>Thursday 2 April</span> and <span>Friday 2 April</span>
+                                                          for <span class="pickup-price">₦0</span></p> 
+                                                        <a href="#" class="pickup-select">Select Pickup Station</a>
+
+                                                      </form>
+                                                  </div>
+
+                                                  <div class="checkout-summary">
+                                                    <p class="summary-heading">Summary</p>
+                                                    <div class="subtotal-div"><p class="subtotal">Subtotal:</p> <p class="subtotal-value">₦100,000</p></h6></div>
+                                                    <div class="deliverycost-div"><p class="delivery">Delivery cost:</p> <p class="delivery-value">N.A</p></h6></div>
+                                                    <div class="shipping-div"><p class="shipping">Shipping cost:</p> <p class="shipping-value">N.A</p></h6></div>
+                                                    <div class="total-div"><p class="total">Total:</p> <p class="total-value">N.A</p></h6></div>
+                                                    <p class="checkout-info small-text">you will be able to add vouchers/coupons in the next step</p>
+                                                    <button class="continue-btn next-step-btn">CONTINUE TO NEXT STEP</button>
+
+
+                                                  </div>
+                                            </div>
+
+                                      </div>
+
+                                      <div class="delivery-final white-section others-card">
+                                              <div class="checkout-heading">
+                                                <h6 class="checkout-header"><i class="fas fa-check-circle check-completed"></i>2. DELIVERY METHOD<a href="#" class="edit-det"><i class="far fa-edit"></i></a></h6>
+                                              </div>
+                                              <div class="delivery-final-content">
+                                                    <div class="del-choice-door">
+                                                      <p class="del-choice"><strong>Door Delivery</strong></p>
+                                                      <p class="door-del-info  small-text">Delivered between <span>Thursday 2 April</span> and <span>Friday 2 April</span>
+                                                        for <span class="door-price">₦500</span></p>
+                                                    </div>
+                                                    <div class="del-choice-pickup">
+                                                      <p class="del-choice"><strong>Pickup Delivery</strong></p>
+                                                      <p class="pickup-del-info small-text">Ready for pickup between <span>Thursday 2 April</span> and <span>Friday 2 April</span>
+                                                        for <span class="pickup-price">₦0</span></p>
+                                                    </div>
+                                              </div>         
+                                      </div>
+
+                            </div>
+                            
+                            <div class="payment-div grey-section">
+                                  <div class="payment-initial white-section others-card">
+                                        <div class="checkout-heading">
+                                          <h6 class="checkout-header"><i class="fas fa-check-circle check-disabled"></i>3. PAYMENT METHOD</h6>
+                                        </div>
+                                        <div class="payment-initial-content">
+                                          <p>How do you want to pay for your order?</p>
+                                          <div class="paymethod-div">
+                                              <form>
+                                                <input type="radio" id="cardpay" name="payment-method" value="cardpay">
+                                                <label for="cardpay"> <i class="fas fa-credit-card pay-icon"></i><i class="fas fa-credit-card pay-icon-space"></i><strong>Pay now with card</strong></label><br>
+                                                <div class="card-options">
+                                                    <div><img src="https://img.icons8.com/color/48/000000/mastercard-logo.png"/></div>
+                                                    <div><img src="https://img.icons8.com/color/48/000000/visa.png"/></div>
+                                                    <div><img class="verve-logo" src="images/verve-logo.png"/></div>
+  
+                                                </div>
+                                                
+                                                <input type="radio" id="doorpay" name="payment-method" value="doorpay">
+                                                <label for="doorpay"><i class="fas fa-money-bill-wave pay-icon"></i><i class="fas fa-credit-card pay-icon-space"></i><strong>Pay on delivery (with cash or POS)</strong></label><br>
+
+                                              </form>
+                                          </div>
+
+                                          <div class="voucher">
+                                                <p class="voucher-text">Got a shoplit voucher/coupon? Enter it below:</p>
+                                                <div class="voucher-div">
+                                                        <div><input type="text" class="form-control input-text" id="inputfname" placeholder="Enter Voucher/Coupon code"><button class="voucher-btn">APPLY VOUCHER</button></div>
+                                                </div>
+
+                                          </div>
+
+                                          <div class="checkout-summary">
+                                            <p class="summary-heading">Summary</p>
+                                            <div class="subtotal-div"><p class="subtotal">Subtotal:</p> <p class="subtotal-value">₦100,000</p></h6></div>
+                                            <div class="deliverycost-div"><p class="delivery">Delivery cost:</p> <p class="delivery-value">₦500</p></h6></div>
+                                            <div class="shipping-div"><p class="shipping">Shipping cost:</p> <p class="shipping-value">N.A</p></h6></div>
+                                            <div class="total-div"><p class="total">Total:</p> <p class="total-value">N.A</p></h6></div>
+                                            <button class="placeorder-btn next-step-btn">COMPLETE ORDER</button>
+                                          </div>
+                                        </div> 
+
+                                  </div>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class=" summary-det white-section checkout-card">
+                        <div class="checkout-title grey-section">
+                            <h6>Order Summary</h6>
+                        </div>
+                        <div class="summary-det-content">
+                            <div class="summary-div">
+                                    <div class="summary-img-div"><a href="#"><img class="item-img" src="images/shoplit-computer.png" alt=""></a></div>
+                                    <div class="item-specs ">
+                                        <h6 class="item-name">LG appliances LG33411</h6>
+                                        <p class="item-colour">Black &nbsp;&nbsp;&nbsp;Size: 45 <br><span>Qty:1 &nbsp;&nbsp;&nbsp;₦10,000</span></p> 
+                                    </div>
+                            </div>
+                            <div class="checkout-summary">
+                              <div class="subtotal-div"><p class="subtotal">Subtotal:</p> <p class="subtotal-value">₦100,000</p></h6></div>
+                              <div class="deliverycost-div"><p class="delivery">Delivery cost:</p> <p class="delivery-value">N.A</p></h6></div>
+                              <div class="shipping-div"><p class="shipping">Shipping cost:</p> <p class="shipping-value">N.A</p></h6></div>
+                              <div class="total-div"><p class="total">Total:</p> <p class="total-value">N.A</p></h6></div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="jquery/jquery-3.4.1.js" charset="utf-8"></script>
+        <script src="js/checkout.js"type="text/javascript" charset="utf-8"></script>
+
+    </body>
+</html>

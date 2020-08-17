@@ -1,0 +1,134 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1em;
+    overflow-x: hidden;
+    color: #666666;
+    background-color: #f5f3f3;
+}
+
+.grey-section{
+    background-color: #f5f3f3;
+}
+
+.white-section{
+    background-color: #ffffff;
+}
+
+/* contents */
+.mission-div{
+    padding:3% 8%;
+    padding-bottom: 2%;
+}
+
+.mission-heading{
+    /* line-height: 65px; */
+    font-size: 2.9rem;
+}
+
+h1, h3,h2{
+    color: #06273A;
+}
+
+.goal-div{
+    padding-top: 4%;
+    padding-left: 0;
+}
+
+.text-div{
+    margin-top: 4%;
+}
+
+
+/* features section */
+
+.features-div{
+    padding: 1% 8% ;
+}
+
+.features-heading{
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.features-container{
+    margin-bottom: 6%;
+}
+
+
+
+.card-img{
+    width: 100%;
+    height: 75%;
+    margin-bottom: 3%;
+}
+
+.cta{
+    padding: 4% 3%;
+    text-align: center;
+}
+
+.mission-div .start-btn{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.start-btn{
+    font-size: 1.4rem;
+    border: none;
+    padding: 1% 4%;
+    color: white;
+    background-color: #f9484a;
+    border-radius: 3px;
+    margin-top: 1%;
+}
+
+/* media queries */
+
+@media screen and (min-width: 767px) and (max-width: 1117px){
+    .mission-heading{
+        font-size: 2.2rem;
+    }
+
+} 
+
+@media screen and (min-width: 767px) and (max-width: 987px) {
+
+    .features-container{
+        margin-bottom: 15%;
+    } 
+    
+
+}
+
+@media screen and (max-width: 767px){
+
+    .mission-div .start-btn{
+        display: none;
+    }
+
+    .goal-div{
+        text-align: center;
+    }
+
+    .features-card{
+        text-align: center;
+        margin-bottom: 9%;
+    }
+
+
+    .mission-div{
+        padding: 5% 5%;
+    } 
+
+    .mission-heading,h2{
+        font-size: 1.7rem;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    h2{
+        display: none;
+    }
+}

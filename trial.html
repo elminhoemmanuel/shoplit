@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/trial.css">
+    <!-- bootstrap scripts link -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 first">first</div>
+            <div class="col-lg-3 col-md-3 col-sm-6 second">second</div>
+            <div class="col-lg-3 col-md-3 col-sm-6 third">third</div>
+
+        </div>
+
+    </div>
+    <form action="#" class="address-form">
+        <div class="name-det form-div">
+            <div class="fname-div">
+                <label for="fname">First Name<span class="asterisk">*</span></label><br>
+                <input type="text" id="fname" >
+            </div>
+            <div class="lname-div">
+                <label for="lname">Last Name<span class="asterisk">*</span></label><br>
+                <input type="text" id="lname" >
+            </div>
+        </div>
+        <div class="phone-div form-div">
+            <label for="phone" class="phone-tag">Phone number <span class="asterisk">*</span></label><br>
+            <input type="text" id="phone" placeholder="08022233344">
+        </div>
+        <div class="house-ad-div form-div">
+            <label for="house-address" class="house-ad-tag">Address <span class="asterisk">*</span></label><br>
+            <textarea class="address-field" name="house-address" id="house-address" cols="8" rows="2"></textarea>
+        </div>
+        <div class="state-div form-div">
+            <label for="state-address" class="state-tag">State/Region <span class="asterisk">*</span></label><br>
+            <select id="state-address" name="state-address">
+                <option value="null">Please select....</option>
+                <option value="abia">Abia</option>
+                <option value="adamawa">Adamawa</option>
+                <option value="bauchi">Bauchi</option>
+                <option value="abuja">Abuja</option>
+                <option value="lagos">Lagos</option>
+                <option value="rivers">Rivers</option>
+            </select> 
+        </div>
+
+        <!-- backup of categories -->
+        <div class="item1">     <!--categories side menu-->
+            <div class="item1-item">   <!--cat means categories-->
+                    <form class="search-form" >
+                        <input class="cat-search-bar" type="search" placeholder="Search" >
+                        <button class="cat-search-btn" type="submit"><i class="fas fa-search search-img"></i></button>
+                    </form>
+            </div> 
+            <hr class="cat-seperator">
+            <div class="item1-item">   <!--cat means categories-->
+                    <h6>CATEGORIES <i class="fas fa-angle-down cat-arrow sidemenu-icons"></i></h6>
+                    <p class="item1-cat">Fashion <i class="fas fa-plus fash-plus sidemenu-icons" ></i></p>
+                    <hr class="cat-seperator">
+                    <p class="item1-cat ">Computers & Computer accessories<i class="fas fa-plus comp-plus sidemenu-icons"></i></p>
+                    <hr class="cat-seperator">
+                    <p class="item1-cat ">Phones & Tablets<i class="fas fa-minus phone-minus sidemenu-icons"></i></p>
+                    <div class="sidemenu-div">
+                        <form action="">
+                            <input type="checkbox"><label for="Smartphones">Smartphones</label><br>
+                            <input type="checkbox"><label for="Tablets">Tablets</label><br>
+                            <input type="checkbox"><label for="Cellphones">Cellphones</label><br>
+                        </form>
+                    </div>
+                    <hr class="cat-seperator">
+            </div> 
+            <div class="item1-item">   <!--cat means categories-->
+                <h6>BRAND <i class="fas fa-angle-down brand-arrow sidemenu-icons"></i></h6>
+                <div class="sidemenu-div">
+                    <form action="">
+                        <input type="checkbox"><label for="Tecno">Tecno</label><br>
+                        <input type="checkbox"><label for="Iphone">Iphone</label><br>
+                        <input type="checkbox"><label for="Samsung">Samsung</label><br>
+
+                    </form>
+                </div>
+                <hr class="cat-seperator">
+            </div> 
+            <div class="item1-item">   <!--cat means categories-->
+                <h6>COLOUR <i class="fas fa-angle-down colour-arrow sidemenu-icons"></i></h6>
+                <div class="sidemenu-div">
+                    <form action="">
+                        <input type="checkbox"><label for="Blue">Blue</label><br>
+                        <input type="checkbox"><label for="Black">Black</label><br>
+                        <input type="checkbox"><label for="Gold">Gold</label><br>
+                    </form>
+                </div>
+                <hr class="cat-seperator">
+            </div>
+            <div class="item1-item">   <!--cat means categories-->
+                <h6 class="filter-heading">Filter By</h6>
+                <div class="sidemenu-div">
+                    <p><i class="far fa-window-close filter-cancel"></i>Smartphones</p>
+                    <p><i class="far fa-window-close filter-cancel"></i>Iphone</p>
+                    <p><i class="far fa-window-close filter-cancel"></i>Black</p>
+                    <a class="reset-all" href="#">Reset All</a><br>
+                    <button class="btn btn-primary btn-sm apply-filters-btn ">Apply</button>
+                </div>
+                <hr class="cat-seperator">
+            </div>
+
+        </div>
+        <div class="item2 cat-cards">
+            <button class="btn btn-primary cat-cards-btn ">Computers</button> 
+            <i class="fas fa-heart favourite-icon"></i>
+            <div class="cat-item-img-div">
+                <img class="cat-item-img" src="images/shoplit-computer.png" alt="shoplit-computer">
+                <h6 class="item-name">Macbook pro 15" original</h6>
+                <p class="price-tag">Price:</p>
+                <p class="item-price">$500.00</p>
+            </div>
+            <i class="fas fa-star first-cat-rating cat-rating"></i><i class="fas fa-star cat-rating"></i><i class="fas fa-star cat-rating"></i><i class="fas fa-star cat-rating"></i>
+            <i class="far fa-star cat-rating"></i>
+            <button class="btn btn-primary btn-sm add-to-cart">Buy Now</button>
+            
+        </div>
+        <div class="item3 cat-cards">
+            <button class="btn btn-primary cat-cards-btn ">Computers</button> 
+            <i class="fas fa-heart favourite-icon"></i>
+            <div class="cat-item-img-div">
+                <img class="cat-item-img" src="images/shoplit-computer.png" alt="shoplit-computer">
+                <h6 class="item-name">Macbook pro 15" original</h6>
+                <p class="price-tag">Price:</p>
+                <p class="item-price">$500.00</p>
+            </div>
+            <i class="fas fa-star first-cat-rating cat-rating"></i><i class="fas fa-star cat-rating"></i><i class="fas fa-star cat-rating"></i><i class="fas fa-star cat-rating"></i>
+            <i class="far fa-star cat-rating"></i>
+            <button class="btn btn-primary btn-sm add-to-cart">Buy Now</button>
+            
+        </div>
+        <div class="item4 cat-cards">
+            <button class="btn btn-primary cat-cards-btn ">Computers</button> 
+            <i class="fas fa-heart favourite-icon"></i>
+            <div class="cat-item-img-div">
+                <img class="cat-item-img" src="images/shoplit-computer.png" alt="shoplit-computer">
+                <h6 class="item-name">Macbook pro 15" original</h6>
+                <p class="price-tag">Price:</p>
+                <p class="item-price">$500.00</p>
+            </div>
+            <i class="fas fa-star first-cat-rating cat-rating"></i><i class="fas fa-star cat-rating"></i><i class="fas fa-star cat-rating"></i><i class="fas fa-star cat-rating"></i>
+            <i class="far fa-star cat-rating"></i>
+            <button class="btn btn-primary btn-sm add-to-cart">Buy Now</button>
+            
+        </div>
+        <div class="item5 cat-cards">
+            <button class="btn btn-primary cat-cards-btn ">Computers</button> 
+            <i class="fas fa-heart favourite-icon"></i>
+            <div class="cat-item-img-div">
+                <img class="cat-item-img" src="images/shoplit-computer.png" alt="shoplit-computer">
+                <h6 class="item-name">Macbook pro 15" original</h6>
+                <p class="price-tag">Price:</p>
+                <p class="item-price">$500.00</p>
+            </div>
+            <i class="fas fa-star first-cat-rating cat-rating"></i><i class="fas fa-star cat-rating"></i><i class="fas fa-star cat-rating"></i><i class="fas fa-star cat-rating"></i>
+            <i class="far fa-star cat-rating"></i>
+            <button class="btn btn-primary btn-sm add-to-cart">Buy Now</button>
+            
+        </div>
+
+        
+    
+    </form>
+    
+</body>
+</html>

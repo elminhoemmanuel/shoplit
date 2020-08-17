@@ -1,0 +1,162 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1em;
+    overflow-x: hidden;
+    color: #666666;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rubik','Roboto', sans-serif ;
+    color: #06273A;
+}
+
+.grey-section{
+    background-color: rgb(245, 243, 243);
+}
+
+.white-section{
+    background-color: #ffffff;
+}
+
+.holders{
+    padding: 3% 7%;
+}
+
+/* contents */
+/* intro section */
+
+
+.text-card{
+    padding-top: 5%;
+}
+
+.support-text{
+    margin-bottom: 7%;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.pic-card{
+    padding-top: 2%;
+}
+
+.return-links{
+    text-decoration: none;
+    color: white;
+    background-color: #f9484a;
+    border: none;
+    border-radius: 4px;
+    padding: 1% 4%;
+    margin-right: 3%;
+
+}
+
+.return-links:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #cf4042;
+    border: none;
+    border-radius: 4px;
+    padding: 1% 4%;
+    margin-right: 3%;
+}
+
+/* process section */
+
+.process-cards{
+    text-align: center;
+    margin-bottom:3% ;
+}
+
+.process-holder{
+    background-color: #ffffff;
+    padding: 6% 2%;
+    border-radius: 6px;
+    height: 100%;
+    
+}
+
+
+.card-icon{
+    margin-bottom: 4%;
+    
+}
+
+/* procedure section */
+
+.procedure-icon{
+    margin-bottom: 10%;
+    color: #06273A;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.procedure-cards{
+    text-align: center;
+    margin-bottom: 4%;
+    border: 1px solid #b6b5b5;
+    padding-top: 4%;
+}
+
+.body-links{
+    text-decoration: none;
+    color: #666666;
+}
+
+.body-links:hover{
+    text-decoration: none;
+    color: #f9484a;
+}
+
+.return-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #f9484a;
+    border: none;
+    border-radius: 4px;
+    padding: 1% 4%;
+}
+
+.return-btn:hover{
+        text-decoration: none;
+        color: white;
+        border: none;
+        background-color: #bb3538;
+        border-radius: 4px;
+        padding: 1% 4%;
+}
+
+.cta{
+    text-align: center;
+    padding-top: 2%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 1.8rem;
+    }
+
+    h3,h6{
+        font-size: 1.3rem;
+    }
+
+    .text-card,.pic-card{
+        text-align: center;
+    }
+
+    .procedure-cards{
+        border-radius: 6px;
+    }
+
+
+}
+
+
+

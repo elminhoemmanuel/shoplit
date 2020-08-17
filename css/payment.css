@@ -1,0 +1,114 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1em;
+    overflow-x: hidden;
+    color: #666666;
+}
+
+.grey-section{
+    background-color: #f5f3f3;
+}
+
+.white-section{
+    background-color: #ffffff;
+}
+
+.holder{
+    padding: 6% 6%;
+}
+
+.header-text{
+    color: #06273A;
+}
+
+.center{
+    text-align: center;
+}
+
+/* contents */
+.heading-div{
+    padding-top: 4%;
+}
+
+.intro-div{
+    margin-bottom: 8%;
+}
+
+/* pay with card section */
+
+.card-holder{
+    border-right: 0.7px solid #d3d2d2;
+}
+
+.card-icon{
+    margin-bottom: 4%;
+    color: #06273A ;
+}
+
+.card-headings{
+    margin-bottom: 3%;
+}
+
+h2{
+    margin-bottom: 10%;
+}
+.single-card{
+    margin-bottom: 10%;
+}
+
+/* cta */
+.shop-btn{
+    border: none;
+    border-radius: 4px;
+    padding: 1.5% 4%;
+    background-color: #f9484a;
+    text-decoration: none;
+    color: white;
+}
+
+.shop-btn:hover{
+    border: none;
+    border-radius: 4px;
+    padding: 1.5% 4%;
+    background-color: #e23e40;
+    text-decoration: none;
+    color: white;
+
+}
+
+.cta p{
+    margin-bottom: 3%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 826px) {
+
+
+}
+
+@media screen and (max-width: 767px){
+    .heading-div, .pic-div{
+        text-align: center;
+        margin-bottom: 7%;
+    }
+
+    h1{
+        font-size: 1.9rem;
+    }
+
+    h2{
+        font-size: 1.7rem;
+    }
+
+    .card-holder{
+        border: none;
+    }
+
+    .single-card{
+        text-align: center;
+    }
+
+}
+

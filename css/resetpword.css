@@ -1,0 +1,113 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1em;
+    overflow-x: hidden;
+    color: #666666;
+    background-color: #f5f3f3;
+}
+
+.grey-section{
+    background-color: #f5f3f3;
+}
+
+.white-section{
+    background-color: #ffffff;
+}
+
+/* login contents */
+
+#reset{
+    padding: 4% 4%;
+}
+
+.reset-div{
+    margin:0  auto;
+    width: 45%;
+    padding: 4% 5%;
+    position: relative;
+    box-shadow: 0 2px 5px 0 rgba(29, 29, 29, 0.05);
+    border-radius: 2%; 
+}
+
+.reset-div h2{
+    color: #06273A;
+    text-align: center;
+}
+
+.reset-div p, .reset-div h2{
+    text-align: center;
+}
+
+.reset-div p{
+    margin-bottom: 8%;
+}
+
+.reset-div input{
+    background-color: #edf2f7;
+    width:96%;
+    padding: 4% 4%;
+    border: none;
+    margin-bottom: 7%;
+    border-radius: 3%;
+}
+
+.reset-btn{
+    border: none;
+    width: 96%;
+    padding: 4% 4%;
+    color: white;
+    background-color: #06273A;
+    border-radius: 2%;
+    margin: 6% auto;
+}
+
+.reset-btn:hover{
+    background-color: #051e2c;
+
+}
+
+.reset-links, .reset-links:hover{
+    text-decoration: none;
+    color: #f9484a;
+    display: block;
+    text-align: center;
+}
+
+.login-link{
+    margin-bottom: 4%;
+}
+
+.secure-text{
+    font-size: 0.9rem;
+}
+
+
+/* media queries */
+@media screen and (min-width: 826px) and (max-width: 1150px) {
+    .reset-div{
+        width:59%;
+    }
+}
+
+@media screen and (min-width: 617px) and (max-width: 826px) {
+    .reset-div{
+        width:74%;
+    }
+}
+
+@media screen and (max-width: 617px){
+    .reset-div{
+        width:90%;
+    }   
+}
+
+@media screen and (max-width: 495px){
+    .reset-div{
+        width:93%;
+    }
+    .reset-div h2{
+        font-size: 1.8rem;
+
+    }   
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <title>Shoplit- shopping just got lit</title>
+        
+        <!-- favicon -->
+        <link rel="icon" href="images/favicon.ico">
+        <!-- bootstrap link -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+      
+        <!-- css link -->
+        <link rel="stylesheet" href="css/contact.css">
+      
+        <!-- Google fonts link -->
+        <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+      
+        <!-- font awesome link -->
+        <script src="https://kit.fontawesome.com/9cee552667.js" crossorigin="anonymous"></script>
+      
+        <!-- bootstrap scripts link -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+
+    </head>
+
+    <body>
+
+        <section  id="contact">
+                <div class="contact-heading grey-section "><h2>CONTACT US</h2></div>
+
+                <div class="contact-div white-section">
+                    <p class="intro-text">We are committed to ensure your shopping is lit. How can we help?</p>
+                    <div class="contact-events container-fluid">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm12 contact-cards">
+                                <i class="fas fa-4x fa-truck-moving contact-icons"></i>
+                                <div class="btn-container"><a href="#contact-form" class="contact-event-btn track-order-btn">Track Order</a></div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm12 contact-cards">
+                                <i class="far fa-window-close fa-4x contact-icons "></i>
+                                <div class="btn-container"><a href="#contact-form" class="contact-event-btn track-order-btn">Cancel Order</a></div>      
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm12 contact-cards">
+                                <i class="fas fa-undo-alt fa-4x contact-icons "></i>
+                                <div class="btn-container"><a href="#contact-form" class="contact-event-btn track-order-btn">Return Order</a></div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm12 contact-cards">
+                                <i class="far fa-credit-card fa-4x contact-icons "></i>
+                                <div class="btn-container"><a href="#contact-form" class="contact-event-btn track-order-btn">Payment Issue</a></div>
+                            </div>
+                        </div> 
+                        
+                    </div>
+
+                </div>
+
+                <div class="contact-div2 grey-section">
+                    <p class="form-text">Complete the form below and we will get back to you within 2 business days</p>
+
+                    <div class="contact-container grey-section">
+                            <p class="reqired"><span class="asterisk">*</span>Required</p>
+                            <form action="" method="post" id="contact-form" class="ad-form">
+                                
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                      <label for="inputname">Name<span class="asterisk">*</span></label>
+                                      <input type="text" class="form-control input-text" id="inputname">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                      <label for="inputemail">Email <span class="asterisk">*</span></label>
+                                      <input type="email" class="form-control input-text" id="inputemail">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputorderno">Order Number <span class="asterisk">*</span></label>
+                                    <input type="text" class="form-control input-text" id="inputorderno">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                          <label for="inputsubject">Subject<span class="asterisk">*</span></label>
+                                          <select id="inputsubject" class="form-control input-text sub-select">
+                                              <option selected value="null">Please select....</option>
+                                              <option value="confirm-order">I want to confirm my order</option>
+                                              <option value="cancel-order">I want to cancel my order</option>
+                                              <option value="pay-issue">I have a payment issue</option>
+                                              <option value="return-order">I want to return my order</option>
+                                              <option value="cancel-order">I want to cancel my order</option>
+                                              <option value="return-request">I want to track my return request</option>
+                                              <option value="other-issue">I have some other issue</option>
+                                          </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="description">Description <span class="asterisk">*</span></label><br>
+                                    <textarea class="form-control" ></textarea>
+                                </div>
+                                
+                            </form>
+
+                            <button class="submit-btn">SUBMIT</button>
+                    </div>
+
+                    <p>If you have any other questions, please visit the FAQs page <span class=""><a class="faq-link" href="#">here</a></span></p>
+                </div>
+
+        </section>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../jquery/jquery-3.4.1.js" charset="utf-8"></script>
+        <script src=""type="text/javascript" charset="utf-8"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,94 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 0.85em;
+    overflow-x: hidden;
+    color: #666666;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #06273A;
+}
+
+.grey-section{
+    background-color: #f5f3f3;
+}
+
+.white-section{
+    background-color: #ffffff;
+}
+
+/* contents */
+.center{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.terms-container{
+    padding: 3% 8% 5% 8%;
+}
+
+.terms-div{
+    box-shadow: 0 2px 5px 0 #504f4f;
+    border-radius: 5px;
+    padding: 4% 3%;
+}
+
+.body-links,.body-links:hover{
+    text-decoration: none;
+    color: #f9484a;
+}
+
+.overview-links{
+    text-decoration: none;
+    color: #666666;
+}
+
+.overview-links:hover{
+    text-decoration: none;
+    color: #f9484a;
+}
+
+.websites,.websites:hover{
+    text-decoration: none;
+}
+
+.colored{
+    color:#f9484a ;
+    margin-bottom: 2%;
+}
+
+.shop-btn{
+    background-color: #f9484a ;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 1% 4%;
+}
+
+.shop-btn:hover{
+    background-color: #df4749 ;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 1% 4%;
+}
+/* media queries */
+
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 1.8rem;
+    }
+
+    h3{
+        font-size: 1.3rem;
+    }
+
+    h4{
+        font-size:1.1rem ;
+    }
+
+}
+
+
+
